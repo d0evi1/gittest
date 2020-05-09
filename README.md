@@ -28,7 +28,7 @@ branch china代码，增加：
 4.创建分支，并切换分支
 	
 	git branch china
-	git branch china
+	git checkout china
 
 5.将更新提交到分支china
 	
