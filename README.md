@@ -7,10 +7,6 @@ master代码：
 branch china代码，增加：
 
 	print("hello china.")
-	
-branch usa代码，增加：
-
-	print("hello usa.")
 
 两者会有冲突。
 
@@ -45,11 +41,17 @@ branch usa代码，增加：
 
 7.merge request
 	
-a.查看是否有冲突，如果没有冲突，直接merge。
+查看是否有冲突，如果没有冲突，直接merge。
 
 	点击 merge pull request
 	点击 confirm merge
 	
-b.如果有冲突，
+8.测试有冲突的情况：
+
+主干master在merge完成，新增一行hello usa，并提交修改.
+
+	print("hello world.")
+	print("hello china.")
+	print("hello usa.")
 
 8.是否需要删除branch。
