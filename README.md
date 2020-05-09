@@ -1,5 +1,21 @@
 # branch练习
 
+master代码：
+
+	print("hello world.")
+	
+branch china代码，增加：
+
+	print("hello china.")
+	
+branch usa代码，增加：
+
+	print("hello usa.")
+
+两者会有冲突。
+
+# 一、一个简单branch/merge过程
+
 1.下载代码: 
 
 	git clone https://github.com/d0evi1/gittest
@@ -30,3 +46,10 @@
 7.merge request
 	
 a.查看是否有冲突，如果没有冲突，直接merge。
+
+	点击 merge pull request
+	点击 confirm merge
+	
+b.如果有冲突，
+
+8.是否需要删除branch。
