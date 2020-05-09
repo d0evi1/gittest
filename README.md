@@ -46,12 +46,34 @@ branch china代码，增加：
 	点击 merge pull request
 	点击 confirm merge
 	
-8.测试有冲突的情况：
+	
+# 2.有冲突的合并
 
-主干master在merge完成，新增一行hello usa，并提交修改.
+测试有冲突的情况：
+
+1.主干master在merge完成，新增一行hello usa，并提交修改.
 
 	print("hello world.")
 	print("hello china.")
-	print("hello usa.")
+	print("hello japan.")
+	
+2.而在china branch下，则新增一行hello russian，并提交到branch：
 
-8.是否需要删除branch。
+	print("hello world.")
+	print("hello china.")
+	print("hello russian.")
+	
+3.new一个pull request时，会有conflict，需要进行reslove，会有提示：
+
+	Use the web editor or the  to resolve conflicts
+
+4.手动修改完后，点击：Mark as resloved
+
+5.然后再点击：commit merge按钮。
+
+6.此时提示branch no conflict，然后再点击merge pull request、confirm merge即合并到master。
+	
+
+7.是否需要删除branch？
+
+如果点击是，则branch删除；否继续留着
