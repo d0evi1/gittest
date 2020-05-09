@@ -13,4 +13,5 @@
 def main()
   print("hello world.")
   print("hello china")
+  print("hello japan.")
   print("hello russian.")
