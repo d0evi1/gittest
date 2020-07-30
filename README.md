@@ -1,3 +1,20 @@
+# 新建项目
+
+如果本地已有相应文件目录：
+
+	cd existing_folder
+	git init
+	git remote add origin https://github.com/d0evi1/gittest
+	git add .
+	git commit -m "init"
+	git push -u origin master
+
+
+
+
+
+
+
 # branch练习
 
 master代码：
