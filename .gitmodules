@@ -1,0 +1,3 @@
+[submodule "gittestdep"]
+	path = gittestdep
+	url = https://github.com/d0evi1/gittestdep.git
