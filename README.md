@@ -11,7 +11,14 @@
 
 
 
+# 建立依赖项目
 
+	git submodule add https://github.com/d0evi1/gittestdep.git .
+	git submodule init
+	git submodule update
+	
+	git add *
+	git push origin master
 
 
 
